@@ -10,7 +10,7 @@ public class HomeWork2 {
         int tunnel1 = 180;
         int tunnel2 = 188;
         int tunnel3 = 172;
-        int car = 170;
+        int car = 1900;
 
         if (tunnel1 < car) {
             System.out.println("CARSH");
