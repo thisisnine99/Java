@@ -1,4 +1,5 @@
 package day2;
+
 // 문제 : 구구단 작성
 // 조건 : 짝수번째만 곱하기
 /* 출력예시 :
@@ -17,7 +18,7 @@ public class LoopExExam1 {
             System.out.printf("====%d단====\n", i);
             for (int j = 2; j <= 8; j++) {
                 if (j % 2 == 0) {
-                    System.out.printf("%d * %d = %d\n", i, j, i * j );
+                    System.out.printf("%d * %d = %d\n", i, j, i * j);
                 }
             }
         }

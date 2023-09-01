@@ -20,8 +20,7 @@ public class 조건문수업 {
         }
         if (money >= 2000) {
             System.out.println("포카칩");
-        }
-        else {
+        } else {
             System.out.println("구매불가");
         }
 
@@ -44,8 +43,6 @@ public class 조건문수업 {
                 System.out.println("할인대상이 아닙니다.");
             }
         }
-
-
 
 
     }

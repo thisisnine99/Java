@@ -7,7 +7,7 @@ public class LoopEx {
 
         System.out.println("----2중 반복문 사용----");
         for (int i = 1; i <= 3; i++) {
-            System.out.printf( "=== %d회차 ===\n", i);
+            System.out.printf("=== %d회차 ===\n", i);
             for (int j = 1; j <= 5; j++) {
                 System.out.println(j);
             }

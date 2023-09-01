@@ -1,4 +1,5 @@
 package day2;
+
 /*
 축구 경기가 진행중입니다. 축구경기 타임은 총 90분이고,
 현재 A팀이 0점, B팀이 2점인 상황에서, A팀은 최고의 스트라이커인 손흥민을 투입하기로 결정했다.
@@ -19,7 +20,7 @@ public class Exam3 {
         int time = 74;
         int score = 0;
 
-        for (int i = time; i < 90; i+=5) {
+        for (int i = time; i < 90; i += 5) {
             score++;
         }
         System.out.println(score);

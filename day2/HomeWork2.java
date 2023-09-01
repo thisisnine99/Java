@@ -1,4 +1,5 @@
 package day2;
+
 /*
 어떤 차의 높이가 170cm 입니다..
 이 차는 3개의 터널을 차례대로 지나게 될 것입니다.
@@ -14,14 +15,11 @@ public class HomeWork2 {
 
         if (tunnel1 < car) {
             System.out.println("CARSH");
-        }
-        else if (tunnel2 < car) {
+        } else if (tunnel2 < car) {
             System.out.println("CARSH");
-        }
-        else if (tunnel3 < car) {
+        } else if (tunnel3 < car) {
             System.out.println("CARSH");
-        }
-        else {
+        } else {
             System.out.println("PASS");
         }
 

@@ -1,4 +1,5 @@
 package day2;
+
 // 구구단은 n단 ~ m단 중 홀수단만 1 ~ limit 까지 곱 중 짝수곱만 출력해주세요.
 /*  입출력 예시
     n은 4, m은 20, limit는 10
@@ -35,12 +36,11 @@ public class LoopExExam2 {
                 System.out.printf("====%d단====\n", i);
                 for (int j = 2; j <= limit; j++) {
                     if (j % 2 == 0) {
-                        System.out.printf("%d * %d = %d\n", i, j, i*j);
+                        System.out.printf("%d * %d = %d\n", i, j, i * j);
                     }
                 }
             }
         }
-
 
 
     }

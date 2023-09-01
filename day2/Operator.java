@@ -42,8 +42,7 @@ public class Operator {
         boolean isMale = true;
         if (isMale) {
             System.out.println("남자");
-        }
-        else {
+        } else {
             System.out.println("여자");
         }
 
@@ -52,14 +51,11 @@ public class Operator {
         int age2 = 19;
         if (age2 >= 8 && age2 <= 13) {
             System.out.println("초등학교"); // 8 ~ 13
-        }
-        else if (age2 <= 16) {
+        } else if (age2 <= 16) {
             System.out.println("중학교"); // 14 ~ 16
-        }
-        else if (age2 <= 19) {
+        } else if (age2 <= 19) {
             System.out.println("고등학교"); // 17 ~ 19
-        }
-        else {
+        } else {
             System.out.println("성인");
         }
 
@@ -73,11 +69,11 @@ public class Operator {
         int number = 100;
         if (number >= 90 && number <= 100) {
             System.out.println("A");
-        } else if (number >= 80 && number <=89) {
+        } else if (number >= 80 && number <= 89) {
             System.out.println("B");
-        } else if (number >= 70 && number <=79) {
+        } else if (number >= 70 && number <= 79) {
             System.out.println("C");
-        } else if (number >= 60 && number <=69) {
+        } else if (number >= 60 && number <= 69) {
             System.out.println("D");
         } else if (number <= 59) {
             System.out.println("F");
