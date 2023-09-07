@@ -36,6 +36,7 @@ public class ExamDuck {
 class 오리 {
     날개 날개 = new 오리날개();
     발 발 = new 오리발();
+
     void 날다() {
         날개.사용하다();
     }
