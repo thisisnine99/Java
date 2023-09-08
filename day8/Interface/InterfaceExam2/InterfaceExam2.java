@@ -1,2 +1,2 @@
-package day8.Interface;public class InterfaceExam2 {
+package day8.Interface.InterfaceExam2;public class InterfaceExam2 {
 }
