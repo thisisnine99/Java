@@ -1,6 +1,6 @@
-package day8.Interface;
+package day8.Interface.InterfaceExam1;
 
-public class Interface {
+public class InterfaceExam1 {
     public static void main(String[] args) {
         ZooKeeper z1 = new ZooKeeper();
         Lion L1 = new Lion();

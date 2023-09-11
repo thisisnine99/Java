@@ -36,16 +36,16 @@ public class LoopExExam5 {
 //        }
 
 
-        int k = y;
+        int height = 7;
         for (int i = 0; i < 2 * y; i += 2) {
-            for (int j = k - 1; j >= 0; j--) {
+            for (int j = height - 1; j >= 0; j--) {
                 System.out.printf(" ");
             }
             for (int j = 0; j <= i; j++) {
                 System.out.printf("*");
             }
             System.out.println();
-            k--;
+            height--;
         }
 
     }
