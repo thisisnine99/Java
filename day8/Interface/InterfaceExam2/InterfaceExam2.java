@@ -34,5 +34,6 @@ class Americano extends Drink implements Caffeine {
 class Latte extends Drink implements Caffeine {
     public int getPrice() {
         return this.price;
+
     }
 }
